@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VASCOFLIX</title>
+</head>
+<body>  
+    
+    <div class="container">
+        <h1 class="page-title">
+VASCOFLIX
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+        </h1>
+        
+         <img src="https://www.einerd.com.br/wp-content/uploads/2020/07/Homem-Aranha-no-Aranhaverso-capa.jpg" alt="">
+
+      
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      
+
+
+      <style>
+        body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("img/vascvoflix.jpeg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 25px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-size: 5rem;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+margin: 0 15px;
+box-sizing: 50px;
+}
+
+img {
+  max-height: 300px;
+  
+}
+
+p{
+    font-size: 2rem;
+    text-align: left;
+    padding: 2px;
+    color: #ffffff;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.458);
+}
+
+      </style>
+
+      <script>
+
+       
+
+var listaDeFilmes = [
+    "https://th.bing.com/th/id/R.d1b8da021622ccbabf7229353491b4d7?rik=5s9I4tauiMSygQ&riu=http%3a%2f%2fis4.mzstatic.com%2fimage%2fthumb%2fVideo3%2fv4%2ff0%2f98%2fd2%2ff098d2ec-a2fd-159c-2c8f-dcd0d91893bf%2fsource%2f2000x3000sr.jpg&ehk=mrQHX9JehxO3uM5OxSH5Zr4xNNXbytd7vOb6af3HeDE%3d&risl=&pid=ImgRaw&r=0.jpg",
+    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje-cD3pCSBNqTfiX2RY0PFexSDdSMhV-NQcqQFim-EuvdOypGlMSLUp0UhdtAwc6vI_8p6E5iVIcDWuGVHHkKd63JC3DVMixCHMyfJNmua4X0YrKl9RPhYMIWhS5xBiiSTN6ZjrKEL9p6qP0kWex2SoiRY7QlpMDr1evYh3uMzeJDq6JpN0-M/s1600/1AD6CEEC-FF8B-4BDD-A2C4-174F0B95DF27.jpg",
+    "https://th.bing.com/th/id/OIP.GcDbZ5nXpninHe51a7qDmwHaLH?rs=1&pid=ImgDetMain.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_761107-MLU70420728047_072023-O.jpg",
+    "https://www.themoviedb.org/t/p/original/1Gu1IzSzlqvFuoVEfHqzQxRPOGi.jpg",
+    "https://th.bing.com/th/id/OIP.Hc7Y3O1oVdEAsft4oKTJqQHaK9?rs=1&pid=ImgDetMain.jpg",
+    "https://th.bing.com/th/id/OIP.HLRU8IMCbPgRHAGcp4DdYgHaLH?rs=1&pid=ImgDetMain.jpg",
+    "https://th.bing.com/th/id/R.24fa4f72351f44586acc27a9979ce1c5?rik=pIpIkDGlK1Y6kw&riu=http%3a%2f%2fbr.web.img3.acsta.net%2fpictures%2f20%2f03%2f30%2f17%2f23%2f0866109.jpg&ehk=MTeNKkd8v4xkBNtX2RCqYIlZy%2bIN0lnV8I72bzs0ijY%3d&risl=&pid=ImgRaw&r=0.jpg"
+];
+
+var i = 0;
+
+while (i < listaDeFilmes.length) {
+    document.write("<img src=" + listaDeFilmes[i] + ">");
+    i++;
+}
+
+var listaNomeDeFilmes = ["TRANSFORMERS", "SPIDERMAN", "VIRGIN RIVER","BATMAN","TREZENTOS","MATRIX","OBLIVION","RESGATE"];
+
+var J = 0;
+
+while (J < listaNomeDeFilmes.length) {
+    document.write("<p>" + listaNomeDeFilmes[J] + "</p>");
+    J++;
+}
+
+
+</script>
+</body>
+</html>
